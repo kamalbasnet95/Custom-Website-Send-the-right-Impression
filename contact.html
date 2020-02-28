@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Send The Right Impression</title>
+	<meta name="author" content="Kamal Basnet"/>
+	<meta name="keywords" content="css, div tags, html, printing"/>
+	<meta name="description" content="printing companies, monson maine printing"/>
+	<link rel="stylesheet" type="text/css" href="product.css" />
+	<meta charset="UTF-8">
+</head>
+<body>
+<div id="container">
+<header>
+	<img src="images/logo.jpg"
+width="320" height ="100" alt="Send the Right Impression" />
+</header>
+
+<nav>
+	<a href="index.html">Home</a>
+	<a href="products.html">Products</a>
+	<a href="pricing.html">Pricing</a>
+	<a href="direction.html">Directions</a>
+	<a href="Links.html">Links</a>
+	<a href="contact.html">Contact Us</a>
+</nav>
+<hr />
+<h1 id="contactus"> CONTACT US </h1>
+<section id="contact">
+<h5>We love to hearing from you. Please fill out our contact us form and let us know which of the newsletters (or all) that you would like to receive. </h5>
+<form action="mailer-new.php" id="Contact" name="contactus" method="post">
+	<fieldset id="contactInfo" class="fltLt">
+		<legend>Contact Info.</legend>
+		
+		<label for="fname"> First Name</label>
+		<input type="text" id="fname" name="fname"/>
+		<label for="lname"> Last Name</label>
+		<input type="text" id="lname" name="lname"/>
+		<label for="email">Email</label>
+		<input type="email" id="email" name="email"/>
+		<label for="City">City</label>
+		<input type="text" id="City" name="City"/>
+		<label for="state">State</label>
+		<input type="text" id="state" name="state"/>
+		<label for="hphone">Home Phone</label>
+		<input type="tel" id="hphone" name="hphone"/>
+		<p style="color:#e09380;" > <strong>When and How? </strong> </p>
+	<p id='date' ><label for="date">Date:</label>
+	<input name='orderDate' type='date' required /> </p>
+</fieldset><!--end contactinfo-->	
+	<fieldset id="ptype" class="fltLt"  ><p > 
+			<label for='printtype'>Printing Format</label>
+			<select id='printtype'>
+				<option value='or' selected  > Organic Dyes </option>
+				<option value='tr'   > Traditional</option>
+				<option value='special' > Special Instruction </option>
+				
+			</select>	
+		</p> </fieldset>
+
+	<fieldset id="eventInfo" class="fltRt">
+		<legend> Products</legend>
+		<fieldset id="prod" class="fltLt" >
+	<p> <strong>Interested Product </strong></p>
+	<input class="leftIndent" type='checkbox' name='print' value='print' id='print_0'/>
+		<label for='print_0'>Offset Printing</label> <br/>
+	<input class="leftIndent" type='checkbox' name='print' value='print' id='print_1'/>
+		<label for='print_1'>Copying</label> <br/>
+	<input class="leftIndent" type='checkbox' name='print' value='print' id='print_2'/>
+		<label for='print_2'> Binding Services </label> <br/>
+	<input class="leftIndent" type='checkbox' name='print'  id='print_3'/>
+		<label for='print_3'>Layout and Design</label> <br/>
+		
+	</fieldset>
+	<fieldset id="prod1" class="fltLt" >
+	<p> <strong>Account </strong></p>
+	<input class="leftIndent" type='radio' name='for' value="for"  id='for_0'/>
+		<label for='for_0'>Business</label> <br/>
+	<input class="leftIndent" type='radio' name='for' value="for"  id='for_1'/>
+		<label for='for_1'>Personal</label> <br/>
+	<input class="leftIndent" type='radio' name='for' value="for" id='for_2'/>
+		<label for='for_2'>Other</label> <br/>
+		
+	</fieldset>
+	<br />
+	<fieldset id="service" class="fltLt" >
+	<p><strong>Services </strong></p>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_0'/>
+		<label for='ser_0'>Brochure</label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='print' id='ser_1'/>
+		<label for='ser_1'>Announcement</label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_2'/>
+		<label for='ser_2'> Greeting Cards </label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_3'/>
+		<label for='ser_3'>Business Cards</label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_4'/>
+		<label for='ser_4'>Letterhead</label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_5'/>
+		<label for='ser_5'> Banner </label> <br/>
+	<input class="leftIndent" type='checkbox' name='ser' value='ser' id='ser_6'/>
+		<label for='ser_6'>Others</label> 	<br/>
+	</fieldset>
+	
+	
+	
+	</fieldset><!--end eventinfo-->
+	
+	
+	<fieldset id="Service">
+		<legend></legend>
+	
+	<p id="box"> <label for='memo'>Special Instruction</label> <br />
+		<textarea name='instructions' cols='50' rows='6' id='memo'></textarea></p>
+	</fieldset><!--endservice-->
+	<p id="video">Would you like to sign up for our Newsletter?
+	<label> Yes
+	<input type="radio" name="video" value="yes" id="video_0"/> </label>
+	<label>No
+	<input type="radio" name="video" value="no" id="video_1"/> </label>
+	</p>
+	<p id="video1"> What is your company's main focus?
+	<label> Legal
+	<input type="radio" name="video" value="yes" id="video1_0"/> </label>
+	<label>Advertising
+	<input type="radio" name="video" value="no" id="video1_1"/> </label>
+	<label>Marketing
+	<input type="radio" name="video" value="no" id="video1_2"/> </label>
+	<label>Educational
+	<input type="radio" name="video" value="no" id="video1_3"/> </label>
+	<label>Others
+	<input type="radio" name="video" value="no" id="video1_4"/> </label>
+	</p>
+		
+	<input id="submit" type="submit" name="submit" value="Submit Order"/>
+		<input type='reset' name='reset' id='reset' value="Reset"/>
+	
+	
+	
+	
+	
+	</form>
+</section><!-- end content-->
+
+
+<footer class="clearFlt">
+	<h6>Copyright Send The Right Impression &copy; 2017</h6>
+</footer>
+
+</div><!-- end container-->
+</body>
+</html>
